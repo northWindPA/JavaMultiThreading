@@ -6,8 +6,16 @@ public class Test {
         test.doWork();
     }
 
-    public synchronized void increment() {
-        counter++;
+//    old syntax
+//    public synchronized void increment() {
+//        counter++;
+//    }
+
+//    new syntax
+    public void increment() {
+        synchronized (this) {
+            counter++;
+        }
     }
 
     public void doWork() throws InterruptedException {
