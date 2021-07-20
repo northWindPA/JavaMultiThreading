@@ -25,21 +25,15 @@ public class Test {
     }
 
     public void doWork() throws InterruptedException {
-        Thread thread1 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                for (int i = 0; i < 10000; i++) {
-                    increment();
-                }
+        Thread thread1 = new Thread(() -> {
+            for (int i = 0; i < 10000; i++) {
+                increment();
             }
         });
 
-        Thread thread2 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                for (int i = 0; i < 10000; i++) {
-                    increment();
-                }
+        Thread thread2 = new Thread(() -> {
+            for (int i = 0; i < 10000; i++) {
+                increment();
             }
         });
 
@@ -57,11 +51,11 @@ public class Test {
 class Worker {
     Random randomNumber = new Random();
 
-    Object lock1 = new Object();
-    Object lock2 = new Object();
+    final Object lock1 = new Object();
+    final Object lock2 = new Object();
 
-    private List<Integer> list1 = new ArrayList<>();
-    private List<Integer> list2 = new ArrayList<>();
+    private final List<Integer> list1 = new ArrayList<>();
+    private final List<Integer> list2 = new ArrayList<>();
 
     public void addToList1() {
         synchronized (lock1) {
@@ -95,18 +89,9 @@ class Worker {
     public void main() {
         long before = System.currentTimeMillis();
 //        work();
-        Thread thread1 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                work();
-            }
-        });
-        Thread thread2 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                work();
-            }
-        });
+        Thread thread1 = new Thread(this::work);
+
+        Thread thread2 = new Thread(this::work);
 
         thread1.start();
         thread2.start();
