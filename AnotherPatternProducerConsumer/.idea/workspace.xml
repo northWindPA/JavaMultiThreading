@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9e79092-2d20-4f79-b5d7-338d3fcaacec" name="Default Changelist" comment="WaitAndNotify test">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WaitAndNotifyTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+    <list default="true" id="a027cad7-08ff-4d5a-8984-1f25531e8ca6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnotherPatternProducerConsumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1vd1DtV2MuqLiYSyv72C1L3QKwu" />
+  <component name="ProjectId" id="1vda625J1xyAUWUm0yHWrl7GWwR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -45,7 +45,7 @@
   <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="WaitAndNotifyTest" />
+      <module name="AnotherPatternProducerConsumer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,29 +72,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e9e79092-2d20-4f79-b5d7-338d3fcaacec" name="Default Changelist" comment="" />
-      <created>1626877035551</created>
+      <changelist id="a027cad7-08ff-4d5a-8984-1f25531e8ca6" name="Default Changelist" comment="" />
+      <created>1626893385413</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1626877035551</updated>
-      <workItem from="1626877036728" duration="1848000" />
-      <workItem from="1626893003085" duration="188000" />
+      <updated>1626893385413</updated>
+      <workItem from="1626893387756" duration="566000" />
+      <workItem from="1626894283138" duration="1284000" />
     </task>
-    <task id="LOCAL-00001" summary="WaitAndNotify test">
-      <created>1626878448360</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1626878448360</updated>
-    </task>
-    <task id="LOCAL-00002" summary="WaitAndNotify test">
-      <created>1626893066890</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1626893066890</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,9 +96,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="WaitAndNotify test" />
-    <option name="LAST_COMMIT_MESSAGE" value="WaitAndNotify test" />
   </component>
 </project>
