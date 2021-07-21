@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a027cad7-08ff-4d5a-8984-1f25531e8ca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnotherPatternProducerConsumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a027cad7-08ff-4d5a-8984-1f25531e8ca6" name="Default Changelist" comment="Another variation of pattern ProducerConsumer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,8 +70,16 @@
       <option name="presentableId" value="Default" />
       <updated>1626893385413</updated>
       <workItem from="1626893387756" duration="566000" />
-      <workItem from="1626894283138" duration="1284000" />
+      <workItem from="1626894283138" duration="1477000" />
     </task>
+    <task id="LOCAL-00001" summary="Another variation of pattern ProducerConsumer">
+      <created>1626895671021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626895671021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +96,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Another variation of pattern ProducerConsumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another variation of pattern ProducerConsumer" />
   </component>
 </project>
